@@ -1,0 +1,9 @@
+services:
+  CSE:
+    image: cse:2.1.8
+    volumes:
+      - ./log:/opt/cse/log
+    ports:
+      - "30100:30100"
+      - "30103:30103"
+      - "30110:30110"
